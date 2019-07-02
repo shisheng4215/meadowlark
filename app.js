@@ -40,14 +40,4 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('500');
 });
-
-var fortunes=[
-	"Conquer your fears or they will conquer you.",
-	"Rivers need springs.",
-	"Do not fear what you don't know.",
-	"You will have a pleasant surprise.",
-	"Whenever plssible,keep it simple.",
-]
-
-
 module.exports = app;
